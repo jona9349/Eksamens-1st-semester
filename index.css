@@ -49,9 +49,15 @@ img {
     width: 7vh;
     height: 7vh;
     background-size: 7vh;
+    position: relative;
+    left: 200px;
+    top: 100px;
 }
 
 .mail2 {
+    position: relative;
+    left: 280px;
+    top: 50px;
     width: 16vh;
     height: 5vh;
 }
@@ -61,6 +67,15 @@ img {
     width: 7vh;
     height: 7vh;
     background-size: 7vh;
+    position: relative;
+    left: 200px;
+    top: 100px;
+}
+
+.telefon2 {
+    position: relative;
+    left: 280px;
+    top: 50px;
 }
 
 .adresse1 {
@@ -68,6 +83,15 @@ img {
     width: 7vh;
     height: 7vh;
     background-size: 7vh;
+    position: relative;
+    left: 200px;
+    top: 100px;
+}
+
+.adresse2 {
+    position: relative;
+    left: 280px;
+    top: 50px;
 }
 
 @media only screen and (max-width: 600px) {
