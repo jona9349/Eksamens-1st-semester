@@ -30,18 +30,21 @@ img {
     display: grid;
     grid-template-columns: 50% 65%;
     grid-gap: 1em;
+    object-fit: contain;
 }
 
 .kolonne2 {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-gap: 1em;
+    object-fit: contain;
 }
 
 .kolonne3 {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-gap: 1em;
+    object-fit: contain;
 }
 
 .kontakt {
