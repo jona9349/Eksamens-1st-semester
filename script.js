@@ -3,7 +3,7 @@ function knap1() {
 }
 
 function knap2() {
-    location.replace("http://jonaspaulsen.dk/kea/02-animation/spil/");
+    location.replace("http://jonaspaulsen.dk/kea/02-animation/spil2/");
 }
 
 function knap3() {
