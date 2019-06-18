@@ -1,9 +1,11 @@
-body {}
+body {
+    background-color: lightgray;
+}
 
 nav {
     padding: 10px 10px;
     text-align: center;
-    background-color: gray
+    background-color: gray;
 }
 
 img {
@@ -12,16 +14,22 @@ img {
     width: 100%;
 }
 
-
-
 .wrapper {
     display: grid;
     grid-template-columns: 35% 63%;
     grid-gap: 1em;
 }
 
-.billede_1 {
-    background-color: gray;
+.kolonne1 {
+    display: grid;
+    grid-template-columns: 50% 65%;
+    grid-gap: 1em;
+}
+
+.kolonne2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 1em;
 }
 
 @media only screen and (max-width: 600px) {
