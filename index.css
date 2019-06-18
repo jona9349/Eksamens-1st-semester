@@ -38,6 +38,38 @@ img {
     grid-gap: 1em;
 }
 
+.kontakt {
+    display: grid;
+    grid-template-rows: 16% 20% 37%;
+
+}
+
+.mail1 {
+    background: url(Billeder/mail.svg);
+    width: 7vh;
+    height: 7vh;
+    background-size: 7vh;
+}
+
+.mail2 {
+    width: 16vh;
+    height: 5vh;
+}
+
+.telefon1 {
+    background: url(Billeder/telefonnummer.svg);
+    width: 7vh;
+    height: 7vh;
+    background-size: 7vh;
+}
+
+.adresse1 {
+    background: url(Billeder/Adresse.svg);
+    width: 7vh;
+    height: 7vh;
+    background-size: 7vh;
+}
+
 @media only screen and (max-width: 600px) {
     .wrapper {
         display: grid;
