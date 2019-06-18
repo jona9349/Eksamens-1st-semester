@@ -32,6 +32,12 @@ img {
     grid-gap: 1em;
 }
 
+.kolonne3 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 1em;
+}
+
 @media only screen and (max-width: 600px) {
     .wrapper {
         display: grid;
