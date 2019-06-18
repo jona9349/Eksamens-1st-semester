@@ -5,7 +5,7 @@ body {
 nav {
     padding: 10px 10px;
     text-align: center;
-    background-color: gray;
+    background-color: darkgray;
 }
 
 img {
@@ -16,7 +16,13 @@ img {
 
 .wrapper {
     display: grid;
-    grid-template-columns: 35% 63%;
+    grid-template-columns: 50% 50%;
+    grid-gap: 1em;
+}
+
+.overskrift_5 {
+    display: grid;
+    grid-template-columns: 50% 50%;
     grid-gap: 1em;
 }
 
@@ -98,8 +104,5 @@ img {
     .wrapper {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
-        grid-gap: 0.5em;
-        border: 10px;
     }
 }
