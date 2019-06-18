@@ -1,10 +1,9 @@
-body {
-    background-color: antiquewhite
-}
+body {}
 
 nav {
     padding: 10px 10px;
     text-align: center;
+    background-color: gray
 }
 
 img {
@@ -19,6 +18,10 @@ img {
     display: grid;
     grid-template-columns: 35% 63%;
     grid-gap: 1em;
+}
+
+.billede_1 {
+    background-color: gray;
 }
 
 @media only screen and (max-width: 600px) {
